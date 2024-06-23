@@ -1,0 +1,43 @@
+{
+  "configurations" : [
+    {
+      "id" : "2C59D223-AEBC-49CB-9C01-5D949DCD2515",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "areLocalizationScreenshotsEnabled" : true,
+    "maximumTestRepetitions" : 2,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:critterclan.xcodeproj",
+      "identifier" : "BFDB0618265D44A10014E74F",
+      "name" : "critterclan"
+    },
+    "testExecutionOrdering" : "random",
+    "testRepetitionMode" : "retryOnFailure",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "skippedTests" : [
+        "AnimalInfoScreen",
+        "BaseScreen",
+        "BaseTest",
+        "GalleryScreen",
+        "HomeScreen",
+        "LocationScreen",
+        "VideosScreen"
+      ],
+      "target" : {
+        "containerPath" : "container:critterclan.xcodeproj",
+        "identifier" : "17B58C3E2BD41BF8008477A7",
+        "name" : "critterclanUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
